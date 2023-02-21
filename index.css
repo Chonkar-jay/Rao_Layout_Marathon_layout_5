@@ -1,15 +1,15 @@
 
-/*.top_line
+.top_line
 {
-    padding: 1%;
-    position: absolute;
+    padding: 2%;
     left: 12%;
     width: 100%;
-    background-color: white;
-/* }*/
+    background-color: black;
+}
 .orange_box
 {
     background-color: orangered;
+    color: white;
 } 
 .logo
 {
@@ -38,6 +38,11 @@
     background-color: orangered;
     writing-mode: vertical-rl;
     text-orientation: upright;
+    font-size: 300%;
+}
+.section_2_lhs
+{
+    background-color: orangered;
 }
 .section_2_lhs h1
 {
@@ -62,6 +67,10 @@
 {
     text-decoration: none;
     color: black;
+}
+.section_2_rhs
+{
+    background-color: rgba(0, 255, 255, 0.13);
 }
 .section_2_rhs p
 {
