@@ -1,0 +1,64 @@
+/*.bg_img
+{
+    background-image: url("Assets/Images/bg_img.jpeg");
+    height: 80%;
+    width: 80%;
+    background-repeat: repeat;  
+
+}
+.bgimg
+{
+    position: absolute;
+    
+}
+.top_line
+{
+    padding: 1%;
+    margin-top: 0.5%;
+    margin-left: 1.5%;
+    background-color: black;
+
+}
+.bi_logo_line
+{
+    padding: 1%;
+    margin-top: 1%;
+    width: 10%;
+    margin-left:10%;
+    position: absolute;
+    background-color: black;
+}*/
+.top_line
+{
+    padding: 1%;
+    margin-top: 0.5%;
+    margin-left: 1.5%;
+    background-color: black;
+}
+.bi_logo_line
+{
+    padding: 2%;
+    margin-top: 1%;
+    width: 40%;
+    margin-left:10%;
+    position: absolute;
+    background-color: black;
+}
+.bi_logo strong
+{
+    font-size: 800%;
+    font-weight: 800%;
+    margin-left:8%;
+}
+.bi_logo p
+{
+    font-size: 200%;
+    font-weight: 1050%;
+    margin-top: -30%;
+    margin-left: 60%;
+    position: static;
+}
+.bi_col_2
+{
+    margin-bottom: 0px;
+}
