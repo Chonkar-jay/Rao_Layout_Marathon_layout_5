@@ -1,14 +1,32 @@
-
+.body
+{
+    background-color:rgb(46, 45, 45) ;
+    position: relative;
+    left: 4%;
+    right: 0%;
+}
+.orange_box_main_row
+{
+    background-image: url("Assets/Images/bg_img.jpeg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    position:relative;
+    background-position-x: right;
+}
 .top_line
 {
-    padding: 2%;
-    left: 12%;
+    position: relative;
+    left: 1%;
+    padding: 0.5em;
+    z-index: 1;
     width: 100%;
-    background-color: black;
+    background-color: white;
 }
 .orange_box
 {
-    background-color: orangered;
+    margin-top: -10%;
+    padding-top: 10%;
+    background-color: rgba(255, 68, 0, 0.664);
     color: white;
 } 
 .logo
@@ -33,16 +51,33 @@
 
 .trend
 {
-    border: 0.5em solid black;
+    
+    border: 0.3em solid white;
     color: white;
     background-color: orangered;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-size: 300%;
+    writing-mode: horizontal-tb;
+    text-orientation: sideways;
+    width: 20%;
+    margin-bottom: 20;
+}
+@media(min-width: 760px)
+{ 
+    #trend
+    {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 200%;
+        width: 20%;
+        position: relative;
+        right: -70%;
+    }
 }
 .section_2_lhs
 {
-    background-color: orangered;
+    border-left: 5px solid white;
+    padding-top: 10%;
+    margin-top: -10%;
+    padding-top: 10%;
 }
 .section_2_lhs h1
 {
@@ -61,63 +96,51 @@
 .links a
 {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .address a
 {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .section_2_rhs
 {
-    background-color: rgba(0, 255, 255, 0.13);
+    color: white;
+    position: relative;
+    padding-left: 10%;
+    margin-top: -10%;
+    padding-top: 10%;
+    background-color: rgba(28, 224, 224, 0.438);
 }
 .section_2_rhs p
 {
     font-size: 100%;
     font-weight: 500;
-    position: relative;
-    top: 65%;
-    right: 1%;
 }
 .section_2_rhs h1
 {
     font-size: 900%;
     font-weight: 1000;
-    position: relative;
-    top: 65%;
-    right: -70%;
+    padding-left: 70%;
 }
 .section_2_line
 {
     padding: 2%;
     background-color: rgb(79, 224, 200);
-    position: relative;
-    top: 65%;
-    right: 1%;
 }
 .section_2_icons
 {
-    position: relative;
-    top: 65%;
-    right: 1%
+    
 }
 .section_2_icons a
 {
-    
-    position: relative;
-    top: 65%;
-    right: 1%;
     text-decoration: none;
-    color:black;
+    color:white;
 }
 .site_link
 {
-    position: relative;
-    top: 65%;
-    right: 1%;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 130%;
     font-weight: 700;
 }
