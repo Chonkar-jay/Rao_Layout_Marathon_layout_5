@@ -165,7 +165,7 @@
     text-decoration: none;
     color: white;
     padding-top: 5%;
-    font-size: 200%;
+    font-size: 180%;
     font-weight: 800;
     margin-left: 10%;
 }
@@ -176,7 +176,7 @@
         text-decoration: none;
         color: white;
         padding-top: 5%;
-        font-size: 250%;
+        font-size: 200%;
         font-weight: 900;
         margin-left: 10%;
     }
@@ -187,7 +187,8 @@
     text-decoration: none;
     color: white; 
     font-size: 120%;
-    margin-left:10%
+    margin-left:10%;
+    padding-bottom:10%;
 }
 @media (min-width:745px)
 {
@@ -197,7 +198,8 @@
         text-decoration: none;
         color: white; 
         font-size: 200%;
-        margin-left:10% 
+        margin-left:10% ;
+        padding-bottom:10%;
     }   
 }
 .section_2_rhs
